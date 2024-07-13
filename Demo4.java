@@ -1,6 +1,9 @@
+import java.util.Scanner;
+
 class Demo4{
 	public static void main(String[] args){
 		
+	
 	String studentName = "Jithendra";
 	double chemistry = 80.5;
 	double physics = 90.2;
