@@ -22,5 +22,8 @@ class Demo10{
 	if (totalIncome<50000){
 		System.out.println("Mrs/Mr "+name+" ,You are Aswasuma Eligible");
 		}
+	else{
+		System.out.println("Mrs/Mr "+name+" ,You are not Aswasuma eligible");
+	}
 		}
 	}
