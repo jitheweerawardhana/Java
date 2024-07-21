@@ -8,6 +8,29 @@ class Demo8{
 	double amount = scan.nextDouble();
 	
 	double newAmount = amount + (amount * 0.03);
-	System.out.println("Your new amount is " +newAmount);}
+	System.out.println("Your new amount is " +pnewAmount);
+	}
 }
+	
+	byte vall = -126;
+	
+	/*
+	 Python has premaid softwares
+	 java has premaid softwares
+	 
+	 Premitive Data type 
+	 
+	 byte
+	 short
+	 int
+	 long 
+	 
+	 float
+	 double
+	 
+	 char
+	 
+	 boolean
+	  */
+
 	
