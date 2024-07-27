@@ -11,7 +11,7 @@ class Demo14{
 		String nethu;
 		
 		if (name.equals("nethu")){
-			System.out.print("You are lucky");
+			System.out.print("You are lucky");                                              
 			}
 		else{
 			System.out.print("You are unlucky");
