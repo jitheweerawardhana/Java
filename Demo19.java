@@ -13,6 +13,5 @@ class Demo19{
 		int num3 = 3;
 		num3 = num3 + 5;
 		System.out.println(num3);
-		
 		}
 		}
