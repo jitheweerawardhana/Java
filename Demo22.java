@@ -7,7 +7,7 @@ class Demo22{
 		
 		int numberOfFamily = 0;
 		
-		for(int i=0;i<18  ;i++){
+		for(int i=0;i<18;i++){
 			System.out.println("Enter your salary - ");
 			
 			int salary = sc.nextInt();
