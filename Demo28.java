@@ -23,7 +23,9 @@ class Demo28 {
 			  
 			  int val = sc.nextInt();
 			  ages[i] = val;
-			  
-			  System.out.print(ages);
 			  } 
+		 for(int i=0;i<5;i++){
+			 System.out.print(ages[i]);
+		 }
+		 
 }} 
