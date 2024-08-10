@@ -17,8 +17,6 @@ class Demo26 {
 				else{
 					y = false;
 					}
-					
-					
 			   }
 			   System.out.println("Total - "+total);
 	  }
