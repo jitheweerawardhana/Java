@@ -24,8 +24,8 @@ class Demo29 {
 				  
 				  total = job + bis + land;
 
-			      /*income[i] = total;
-			      sum+=total;*/
+			      income[i] = total;
+			      sum+=total;
 				 }
 				 
 				 
@@ -37,8 +37,7 @@ class Demo29 {
 				       family++;
 				   }
 				   
-			  sum+=income[i];
-			  System.out.println(sum);
+			  //sum+=income[i];
 				  
 				  }
 			 double avg = sum / 3;
