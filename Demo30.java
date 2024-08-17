@@ -23,8 +23,23 @@ class Demo30 {
 				System.out.println("Your new sallery - "+sallery[i]);
 				
 				}
-		    // continue key word eken skip kirimak siduwe 
-		  }
+				
+			/*	
+		     continue key word eken skip kirimak siduwe 
+		     int[][] vehicleMilage = new int[8][2];
+		     vehicleMilage[0][1] = 34000;
+		    
+		     for (int i=0;i<0;i++){
+		          for( int j=0;j<0;j++){
+		     
+		     
+		     vehicleMilage[i][j] = 250000;
+		     }
+		     
+		     
+		     
+		     */
+		    }
 	}
 	
 
