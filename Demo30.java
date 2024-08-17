@@ -23,7 +23,7 @@ class Demo30 {
 				System.out.println("Your new sallery - "+sallery[i]);
 				
 				}
-		
+		    // continue key word eken skip kirimak siduwe 
 		  }
 	}
 	
