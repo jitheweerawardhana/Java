@@ -23,6 +23,6 @@ class Demo20{
 			int val5= 67;
 			}
 			
-			System.out.prinyln(vall5);
+			System.out.prinyln(val5);
 		}
 }
