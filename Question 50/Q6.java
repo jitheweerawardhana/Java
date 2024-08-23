@@ -35,9 +35,11 @@ class Q6 {
 				groupUpto40++;
 				}
 		}
-		System.out.print("Student between the ages of 18 and 22 years - ");
-		System.out.print("Student between the ages of 23 and 30 years - ");
-		System.out.print("Student between the ages of 31 and 40 years - ");
-		System.out.print("Student upto 40 years - ");
+		
+		System.out.println("Student between the ages of 18 and 22 years - "+group18to22);
+		System.out.println("Student between the ages of 23 and 30 years - "+group23to30);
+		System.out.println("Student between the ages of 31 and 40 years - "+group31to40);
+		System.out.println("Student upto 40 years - "+groupUpto40);
+		
 		}
 }
