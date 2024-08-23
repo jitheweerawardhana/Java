@@ -40,9 +40,9 @@ class Q4 {
 			  
 			  }
 			  
-		System.out.print("Grade A sutdent count" + countA);
-		System.out.print("Grade A sutdent count" + countB);
-		System.out.print("Grade A sutdent count" + countC);
-		System.out.print("Grade A sutdent count" + countD);
-		System.out.print("Grade A sutdent count" + countF);
+		System.out.println("Grade A sutdent count" + countA);
+		System.out.println("Grade B sutdent count" + countB);
+		System.out.println("Grade C sutdent count" + countC);
+		System.out.println("Grade D sutdent count" + countD);
+		System.out.println("Grade F sutdent count" + countF);
 }}
