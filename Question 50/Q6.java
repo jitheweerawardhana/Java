@@ -4,8 +4,8 @@ class Q6 {
     public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		String name [] = new String [5];
-		int age [] = new int [5];
+		String []name= new String [5];
+		int []age= new int [5];
 		
 		int group18to22 = 0;
 		int group23to30 = 0;
