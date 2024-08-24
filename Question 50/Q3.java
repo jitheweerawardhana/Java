@@ -5,7 +5,7 @@ class Q3 {
 		
 		  Scanner sc = new Scanner(System.in);
 		  int [][] attendence  = new int[30][22];
-		  int totalAtt [] = new int [30];
+		  int []totalAtt= new int [30];
 		  
 		  int  totalAttendence = 0;
 		  
@@ -35,7 +35,7 @@ class Q3 {
 				totalAtt [i] =  totalAttendence;
 			  }
 			  
-		 int avgAtt [] = new int [30];
+		 int []avgAtt= new int [30];
 		 int avgAttendence  =  0;
 		 
 		 for(int i=0;i<30;i++){
