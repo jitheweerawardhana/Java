@@ -5,7 +5,7 @@ class Q4 {
 		
 		  Scanner sc = new Scanner(System.in);
 		  
-		  int mark [] = new int [5];
+		  int []mark= new int [5];
 		  
 		  int countA = 0;
 		  int countB = 0; 
