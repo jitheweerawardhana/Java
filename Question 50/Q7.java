@@ -5,7 +5,7 @@ class Q7 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int empAttendance [] = new int[40];
+		int []empAttendance= new int[40];
 		
 		for (int i = 0; i < 40; i++) {
             System.out.println("Enter attendance for Employee " + (i + 1) + " (1 for present, 0 for absent) - ");
