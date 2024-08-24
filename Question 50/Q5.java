@@ -4,7 +4,7 @@ class Q5 {
     public static void main(String[] args) {
 		
 		  Scanner sc = new Scanner(System.in);
-		  double salary [] = new double [25];
+		  double [ ]salary= new double [25];
 		  double totalSalaryBefore = 0;
 		  
 		  for(int i=0;i<25;i++){
@@ -15,7 +15,7 @@ class Q5 {
               
 			  }
 			  
-		  double salUp[] = new double [25];
+		  double [ ]salUp = new double [25];
 		  double newSal = 0;
 		  double totalSalaryAfter = 0;
 		   
