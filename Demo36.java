@@ -15,12 +15,12 @@ class Demo36 {
 		System.out.print("What num want you search - ");
 		int val = sc.nextInt();  
 		
-		searchElement(arr,val);
-		
+		//searchElement(arr,val);
+		boolean value = searchElement(arr,val);
+		System.out.print(value);
 	}
     
-    
-    public static void searchElement(int [] arr ,int val){
+    public static boolean searchElement(int [] arr ,int val){
 		
 		boolean isAvailable = false;
 		  
@@ -33,7 +33,24 @@ class Demo36 {
 			}
 		
 		}
-		System.out.print(isAvailable);
+		return isAvailable;
 	}
+    
+    /*public static void searchElement(int [] arr ,int val){
+		
+		boolean isAvailable = false;
+		  
+		
+		for(int i=0;i<8;i++){
+			
+			if(arr[i]==val){
+			isAvailable = true;
+			break;
+			}
+		
+		}
+		
+		System.out.print(isAvailable);
+	}*/
 
 }
