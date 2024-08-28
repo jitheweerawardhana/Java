@@ -8,7 +8,6 @@ class Demo37 {
 		
 		int [] result = reverseArr(data);
 		  
-		  
           for (int i=0;i<7;i++) {
             System.out.print(" "+result[i]);
 		  }
@@ -20,6 +19,8 @@ class Demo37 {
 			for(int i=0;i<7;i++){
 				reverseArr[i] = data[6-i];
         }
+        
         return reverseArr;
+        
 			}
 	}
