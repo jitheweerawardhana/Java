@@ -18,7 +18,7 @@ class Practice6 {
     }
 }
 
-public class Book {
+class Book {
     private String title;
     private String author;
     private int yearOfPublication;
@@ -41,7 +41,7 @@ public class Book {
 }
 
 
-public class Library {
+class Library {
     private Book[] books;
     private int count;
 
