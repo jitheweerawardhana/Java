@@ -9,7 +9,7 @@ class Practice5{
         }
     }
 }
-public class FitnessApp2 {
+class FitnessApp2 {
 
     public static void main(String[] args) {
         int totalSteps = 0;
@@ -21,7 +21,7 @@ public class FitnessApp2 {
     }
 }
 
-public class FitnessApp1 {
+class FitnessApp1 {
 
     public static void main(String[] args) {
         int totalSteps = 0;
