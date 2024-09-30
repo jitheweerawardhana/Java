@@ -4,16 +4,16 @@ class Practice3{
 	public static void main (String[] args){
 		
 		Student [] students = {
-			new Student("Jithe","J001",90,85,75),
-			new Student("Jane", "S002", 65, 70, 60),
-            new Student("Alice", "S003", 55, 60, 65),
-            new Student("Bob", "S004", 45, 50, 55),
-            new Student("Chris", "S005", 35, 40, 30),
-            new Student("Eva", "S006", 80, 85, 90),
-            new Student("David", "S007", 60, 65, 70),
-            new Student("Sophia", "S008", 50, 55, 60),
-            new Student("Max", "S009", 85, 90, 80),
-            new Student("Anna", "S010", 95, 90, 100)
+			new Student("Jithe","J01",90,85,75),
+			new Student("Jane", "S02", 65, 70, 60),
+            new Student("Alice", "S03", 55, 60, 65),
+            new Student("Bob", "S04", 45, 50, 55),
+            new Student("Chris", "S05", 35, 40, 30),
+            new Student("Eva", "S06", 80, 85, 90),
+            new Student("David", "S07", 60, 65, 70),
+            new Student("Sophia", "S08", 50, 55, 60),
+            new Student("Max", "S09", 85, 90, 80),
+            new Student("Anna", "S10", 95, 90, 100)
 		};
 		
 		System.out.println("Student Details Before Ranking :");
@@ -47,7 +47,9 @@ class Student{
 	int itsMarks;
 	int totalMarks;
 	double avgMarks;
-	char gradePrf,gradeDbms,gradeIts;
+	char gradePrf;
+	char gradeDbms;
+	char gradeIts;
 	
 	
 	public Student(String name,String studentID,int prfMarks,int dbmsMarks,int itsMarks){
