@@ -1,6 +1,8 @@
 class Demo41{
 	public static void main (String[] args){
 		
+		int x // local veriable (defult value ekk na, method ekk atule tiyene)
+		
 		Animal anim1 = new Animal();
 		anim1.name = "Tiger";
 		anim1.age = 5;
@@ -19,6 +21,13 @@ class Demo41{
 }
 
 class Animal{
+	
+	//{} - instantblock
+	
+	//static block - static variable wlt value add wima
+	static{
+		
+	}
 	//attriubiut  instant variable
 	String name;
 	int age;
@@ -30,7 +39,7 @@ class Animal{
 		//data load
 		System.out.println("Hello");
 	}
-	
+	//constructors overload krnw 
 	public Animal(int a){
 		System.out.println("Hi");
 	}
